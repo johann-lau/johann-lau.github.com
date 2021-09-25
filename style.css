@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Font1";
+  src: url("fonts/font1.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Font2";
+  src: url("fonts/font2.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Font3a";
+  src: url("fonts/font3a.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Font3b";
+  src: url("fonts/font3b.ttf") format("truetype");
+}
+
+video {
+  width: 48vw;
+}
+
+h1 {
+  font-size: 5.5vw;
+  font-weight: bolder;
+  margin-top: 0.6vw;
+  margin-bottom: 0.6vw;
+}
+
+h2 {
+  font-size: 4.5vw;
+  font-weight: bold;
+  margin-top: 1vw;
+  margin-bottom: 0.4vw;
+}
+
+h3 {
+  font-size: 3.5vw;
+  margin-top: 0.2vw;
+  margin-bottom: 0.2vw;
+  padding-top: 3vw;
+}
+
+h1, h2, h3 {
+  font-family: Font1;
+}
+
+p {
+  font-family: Font3a;
+  font-size: 2.6vw;
+  margin-top: 0vw;
+  margin-bottom: 0vw;
+}
